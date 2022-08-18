@@ -2,12 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 
 import styles from './src/styles/Stylesheet';
-import SpellTypes from './src/components/SpellTypes';
+import SpellTypeScreen from './src/screens/SpellTypeScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SpellTypes />
+      <SpellTypeScreen />
       <StatusBar style="auto" />
     </View>
   );
